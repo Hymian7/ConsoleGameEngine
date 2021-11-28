@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleGameEngine;
 
-namespace ConsoleGameEngine
+namespace TestGame
 {
-    public class Game : ConsoleGameEngine
+    public class Game : ConsoleGameEngine.ConsoleGameEngine
     {
 
         public Player player { get; set; }
